@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/t-shirt-mania/static/css/main.dc6b4bc2.css",
+    "main.js": "/t-shirt-mania/static/js/main.d9948b4f.js",
+    "static/js/787.8edd3e7b.chunk.js": "/t-shirt-mania/static/js/787.8edd3e7b.chunk.js",
+    "index.html": "/t-shirt-mania/index.html",
+    "main.dc6b4bc2.css.map": "/t-shirt-mania/static/css/main.dc6b4bc2.css.map",
+    "main.d9948b4f.js.map": "/t-shirt-mania/static/js/main.d9948b4f.js.map",
+    "787.8edd3e7b.chunk.js.map": "/t-shirt-mania/static/js/787.8edd3e7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc6b4bc2.css",
+    "static/js/main.d9948b4f.js"
+  ]
+}
