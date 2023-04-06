@@ -1,0 +1,17 @@
+.header a{
+    text-decoration: none;
+    margin-left: 15px;
+    gap: 10px;
+    color:orangered;
+    
+   
+
+}
+.header{
+    background-color: black;
+    padding: 10px;
+    position: sticky;
+    
+     top: 0;
+   
+}
