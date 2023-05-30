@@ -9,35 +9,35 @@ import About from './Components/About/About';
 import Grandpa from './Components/Grandpa/Grandpa';
 
 function App() {
-  const router =createBrowserRouter([
-  {
-    path:'/',
-    element:<Main/>,
-   children:[
+  const router = createBrowserRouter([
     {
-      path:'/',
-      loader: ()=>fetch('t-shirt.json'),
-      element:<Home></Home>
-    },
-    {
-      path:'/orders',
-      element:<Orders></Orders>
-    },
-    {
-    path:'/grandpa',
-    element:<Grandpa></Grandpa>
-    },
-    {
-      path:'/about',
-      element:<About></About>
-    }
+      path: '/',
+      element: <Main />,
+      children: [
+        {
+          path: '/',
+          loader: () => fetch('t-shirt.json'),
+          element: <Home></Home>
+        },
+        {
+          path: '/orders',
+          element: <Orders></Orders>
+        },
+        {
+          path: '/grandpa',
+          element: <Grandpa></Grandpa>
+        },
+        {
+          path: '/about',
+          element: <About></About>
+        }
 
-   ]
-  }
+      ]
+    }
   ])
   return (
     <div className="App">
-   <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
